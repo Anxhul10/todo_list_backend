@@ -1,15 +1,29 @@
-<head> steps to run this program <head>\n
-<body>
-  handler ->[get , put , post , delete]\n
-  1.Run open these on any ide.\n
-  2.open terminal at files directory.\n
-  3. now type this cmd\n
-    a> npm install express\n
-    b> npm install body-parser\n
-  4.install post man.\n
-  5.install post man.\n
-  6.suppose , on post man post is selected .\n
-  7. type "localhost:3000" then , on body select raw and json and use {"title":"github"} to input data.\n
-  8.to check data is added to server use get on post man and type "localhost:3000/" on url bar .\n
-  
-</body>
+# Steps to Run This Program
+
+## Handlers: [GET, PUT, POST, DELETE]
+
+1. **Open your preferred IDE (Integrated Development Environment).**
+2. **Navigate to your project directory in the terminal or command prompt.**
+3. **Install required dependencies:**
+   - Run the following commands:
+     ```
+     npm install express
+     npm install body-parser
+     ```
+
+4. **Install Postman:**
+   - Download and install [Postman](https://www.postman.com/).
+
+5. **Configure Postman:**
+   - Open Postman and select the HTTP method (GET, PUT, POST, DELETE).
+
+6. **Send a POST request:**
+   - Set the request URL to `http://localhost:3000`.
+   - Select `raw` and `JSON` format in the body tab.
+   - Input JSON data, e.g., `{"title": "github"}`.
+
+7. **Check if data is added:**
+   - Send a GET request to `http://localhost:3000/` in Postman.
+
+Enjoy exploring your Express.js server with CRUD operations!
+
